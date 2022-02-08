@@ -1,7 +1,7 @@
 MyPrinter = {};
 
 MyPrinter.GenericPrint = function(event)
-    print("event = " .. event);
+    print("event == " .. event);
 end
 
 Events.OnMakeItem               .Add(MyPrinter.GenericPrint("OnMakeItem"                ));
